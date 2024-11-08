@@ -1,7 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import '../src/style.css'
 
-// document.addEventListener("DOMContentLoaded", ()=>{
+document.addEventListener("DOMContentLoaded", ()=>{
+    document.getElementById("toTheStorage")?.addEventListener("click", () =>{
+        window.location.assign("storage.html");
+    })
+})
 //     async function getIngredientData(){
 //         await fetch('./ingredient.json')
 //             .then((response) => response.json())
@@ -199,3 +203,7 @@ import '../src/style.css'
 //     window.mixrButton = mixrButton;
 //     window.ingredientAdds = ingredientAdds;
 // })
+
+
+
+
